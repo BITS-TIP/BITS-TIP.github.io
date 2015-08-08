@@ -1,0 +1,167 @@
+@media only screen and (min-width:1350px) {
+  .fullform { display: block; }
+  .shortform { display: none; }
+}
+  
+@media only screen and (min-width: 990px) and (max-width:1350px) {
+  .fullform { display: none; }
+  .shortform { display: block; }
+}
+
+@media only screen and (min-width: 900px) and (max-width:990px) {
+  .fullform { display: block; }
+  .shortform { display: none; }
+}
+
+@media only screen and (max-width: 900px) {
+  .fullform { display: none; }
+  .shortform { display: block; }
+}
+ 
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.top-bar div .hide-on-med-and-down li a {
+  color: white;
+  letter-spacing: 1.5px;
+}
+
+.top-bar div .side-nav li div a {
+  color: black;
+  letter-spacing: 1.5px;
+}
+ 
+.top-bar div a {
+  color: white;
+}
+
+.top-bar {
+  box-shadow: none;
+  z-index: 1000;
+}
+
+.height-100 {
+  height: 100%;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.width-95 {
+  width: 95%;
+}
+
+.valign .desc {
+  font-size: 1.3rem;
+  margin-top: 0px;
+}
+
+.valign .heading {
+  font-size: 2.0rem;
+  margin-bottom: 0.2rem;
+}
+
+.text-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.arvo-font {
+  font-family: 'Arvo';
+}
+
+.lato-font {
+  font-family: 'Lato';
+}
+
+.navbarlink {
+  font-size: 0.8rem;
+}
+
+.nicelightfont {
+  font-weight: lighter;
+}
+
+.decentlightfont {
+  font-weight: 300;
+}
+
+.bigtext {
+  font-size: 1.3rem;
+}
+
+.width-90 {
+  width: 90%;
+}
+
+.white-link {
+  color: white;
+}
+
+.marginless {
+  margin: 0px;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.mentorSL li {
+  opacity: 0;
+}
+
+.justified {
+  text-align: justify;
+}
+
+.width-80 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.right {
+  text-align: right;
+}
+
+.navbar-fixed-not-hp {
+  background-color: rgba(38, 50, 56, 1);
+}
+
+.width-60 {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
