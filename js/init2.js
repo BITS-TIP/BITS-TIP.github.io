@@ -14,4 +14,8 @@
   ];
   Materialize.scrollFire(options);
   
+   $(document).ready(function(){
+      $('.slider').slider({full_width: true, indicators: false, interval: 2500, height: 200});
+   });
+   
 })(jQuery);
